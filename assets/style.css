@@ -1,0 +1,135 @@
+body {
+  background-color: #21211f;
+  z-index: 1;
+}
+/* navbar and hero */
+nav {
+  background-color: transparent;
+}
+nav .nav-link {
+  color: #ffff;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  text-shadow: 1px 1px 2px black;
+  line-height: 16px;
+}
+nav .nav-link:hover {
+  color: #dedddd;
+  transition: 2s;
+}
+.logonav {
+  font-weight: 400;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+}
+.hero {
+  min-height: 100vh;
+  background-image: url("img/home2.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 40vh;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, rgb(33, 33, 31), rgba(0, 0, 0, 0));
+}
+
+.icon {
+  color: #ffff;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black;
+  line-height: 16px;
+}
+.user {
+  padding-left: 100px;
+  color: #ffff;
+  text-decoration: none;
+}
+.username {
+  font-weight: 700;
+  text-shadow: 1px 1px 2px black;
+}
+/* Home Section */
+
+.para1 {
+  font-family: "Inter", sans-serif;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #ffff;
+  text-shadow: 1px 1px 2px black;
+}
+.para2 {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: #ffff;
+  text-shadow: 1px 1px 2px black;
+}
+.parabanyuwangi {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #ffff;
+  text-shadow: 1px 1px 2px #050505;
+}
+.kawahijen {
+  padding-top: 100px;
+  width: 300px;
+}
+.telukijo {
+  padding-top: 100px;
+  width: 300px;
+}
+.pulaumerah {
+  padding-bottom: 100px;
+  width: 300px;
+}
+.djawatan {
+  padding-bottom: 100px;
+  width: 260px;
+}
+.parabout {
+  color: #ffff;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 20;
+}
+.mobile {
+  width: 50%;
+  object-fit: cover;
+}
+/* responsive */
+@media screen and (max-width: 812px) {
+  .para1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 852px) {
+  .kawahijen {
+    width: 20%;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 852px) {
+  .pulaumerah {
+    width: 25%;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 852px) {
+  .telukijo {
+    width: 20%;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 852px) {
+  .djawatan {
+    width: 25%;
+    padding-top: 10px;
+  }
+}
