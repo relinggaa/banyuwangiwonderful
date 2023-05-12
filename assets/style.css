@@ -26,7 +26,7 @@ nav .nav-link:hover {
 }
 .hero {
   min-height: 100vh;
-  background-image: url("img/home2.jpg");
+  /* background-image: url("img/home2.jpg"); */
   background-repeat: no-repeat;
   position: relative;
 }
@@ -102,6 +102,14 @@ nav .nav-link:hover {
 .mobile {
   width: 50%;
   object-fit: cover;
+}
+footer {
+  color: #ffff;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #ffff;
+  text-shadow: 1px 1px 2px #050505;
 }
 /* responsive */
 @media screen and (max-width: 812px) {
